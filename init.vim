@@ -1,7 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-" Plug 'jodosha/vim-godebug' " NeoVIM required
+Plug 'jodosha/vim-godebug' " NeoVIM required
 Plug 'tpope/vim-fugitive'
 Plug 'sjl/splice.vim'
 Plug 'godoctor/godoctor.vim'
